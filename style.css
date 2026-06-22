@@ -41,7 +41,7 @@ section{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(ali.img1.jpg) no-repeat;
+    background: url(ali.img.jfif) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -173,48 +173,55 @@ section{
     color: white;
 }
 @media (max-width:1023px){
+
+    .logo{
+        font-size: 50px;
+        font-weight: 600;
+    }
     header{
-        padding: 35px 40px;
+        padding: 70px 30px;
+        font-size: 50px;
     }
 
     .navgation a{
         padding-left: 10px;
+        font-size: 40px;
     }
     .title{
-        font-size: 25px;
+        font-size: 40px;
     }
     
     section{
-        padding: 90px 30px;
+        padding: 100px 40px;
     }
 
     .main-content h2{
-        font-size: 30px;
+        font-size: 60px;
     }
 
     .main-content h3{
-        font-size: 30px;
+        font-size: 60px;
     }
 
 }
 
 @media (max-width:641px){
     body{
-        font-size: 30px;
+        font-size: 60px;
     }
 
     .main-content h2{
-        font-size: 1em;
+        font-size: 60;
     }
 
     .main-content h3{
-        font-size: 2.em;
+        font-size: 65px;
     }
 }
 
 @media (max-width:300px){
     body{
-        font-size: 30px;
+        font-size: 60px;
      
     }
 }

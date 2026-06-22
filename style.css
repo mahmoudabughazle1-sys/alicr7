@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'poppins','sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:rgb(227, 233, 236);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 220px;
+    
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    font-size: 25px;
+}
+.navgation a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.navgation a:hover{
+    color:gold;
+}
+section{
+    padding: 120px 220px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(ali.img1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    color: gold;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main span{
+    color:whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+}
+.main h3{
+    color: gold;
+    font-size: 25px;
+    font-weight: 500;
+}
+.main-btn{
+    color:white;
+    background-color: gold;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    display:inline-block;
+    padding: 15px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.main-btn:hover{
+    background-color: goldenrod;
+    transform: scale(1.1 , 1);
+}
+.social-icons a{
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.icon-user{
+    display:flex;
+    justify-content: center;
+    color: blue;
+    margin: 20px;
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.cards{
+    background-color: #eef3fa ;
+}
+.card{
+    background-color:white;
+    width: 330px; 
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 17px;
+}
+.card:hover{
+    transform: scale( 1.1 ,1);
+    transition: 1.2s;
+    border-radius: 17px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.info{
+    align-items: center;
+    justify-content: center;
+}
+.Myphoto{
+    background-color: black;
+}
+.Myphoto .content{
+    margin-top: 25px;
+}
+.photo-card{
+   background-color: white;
+   border: 2px solid white;
+   min-height: 280px;
+   width: 300px;
+   overflow: hidden;
+   border-radius: 15px;
+   margin: 20px;
+   transition: 0.6s ease;
+}
+
+.photo-card:hover{
+    transform: scale(1.1);
+}
+.photo-image img{
+    width: 100%;
+}
+.icon-mail{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+.info-mail{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: black;
+    color:blue;
+    padding: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-title{
+    font-weight: 500;
+}
+.footer-title span{
+    color: white;
+}
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navgation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 16px;
+    }
+
+    .main-content h3{
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
